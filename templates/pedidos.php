@@ -303,7 +303,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $res = resend_send([
             'from' => 'pedidos@fibrasan.com.mx',
             // 'to' => ['marketing@fibrasan.com.mx'],
-            'to' => ['skrip5025@gmail.com'],
+            'to' => ['soyjiomartinez@gmail.com'],
             'reply_to' => trim($_POST['correo']),
             'subject' => $asunto,
             'html' => $html,
