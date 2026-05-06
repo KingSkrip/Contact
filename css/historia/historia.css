@@ -1,0 +1,96 @@
+/* ── PAGE BODY ────────────────────────────── */
+main {
+  padding-top: 60px;
+}
+
+/* ── ¿QUIÉNES SOMOS? ──────────────────────── */
+.quienes {
+  padding: 70px 8vw 50px;
+}
+.quienes h1 {
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: var(--primary);
+  background-color: var(--body);
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.quienes-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  align-items: start;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.quienes-img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
+.quienes-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  padding-top: 0.5rem;
+}
+.quienes-text p {
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+/* ── DÓNDE ESTAMOS HOY ─────────────────────── */
+.donde {
+  padding: 50px 8vw 40px;
+  max-width: 900px;
+  margin: 0 auto;   /* centra el bloque */
+}
+
+.donde-label {
+  display: inline-block;
+  background: var(--primary);
+  color: var(--teal);
+  font-family: var(--font-head);
+  font-weight: 800;
+  font-size: 1.2rem;
+  padding: 0.25rem 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.donde p {
+  max-width: 800px;
+  margin: 0 auto;     /* centra el bloque del texto */
+  text-align: left;   /* texto alineado izquierda */
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
+/* ── GALERÍA 2 FOTOS ──────────────────────── */
+.gallery {
+  padding: 30px 8vw 70px;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  max-width: 660px;
+  margin: 0 auto;   /* centra las imágenes */
+}
+.gallery-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+.gallery-item img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+.gallery-item span {
+  font-size: 0.78rem;
+  color: var(--text-mid);
+  text-align: center;
+}
+
+
