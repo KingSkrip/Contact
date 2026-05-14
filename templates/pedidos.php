@@ -301,7 +301,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         // ── Envío: UN solo correo con ambos destinatarios ──
         $res = resend_send([
-            'from' => 'pedidos@fibrasan.com.mx',
+            'from' => 'onboarding@resend.dev',
             // 'to' => ['marketing@fibrasan.com.mx'],
             'to' => ['soyjiomartinez@gmail.com'],
             'reply_to' => trim($_POST['correo']),
